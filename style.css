@@ -1,0 +1,557 @@
+*{
+    margin:0;
+}
+header{
+    background-attachment: fixed; 
+    display:flex; 
+    align-items: center; 
+    padding: 0 165px;
+    background-color:#6B9B5A;
+    justify-content: space-between;
+    height: 72px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 10%;
+    height: 55px;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+}
+header a{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #18191F;
+    text-decoration: none;
+    margin-right: 32px;
+}
+header a:hover{color:#4b4b4b}
+.s1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:673px;
+    padding: 0 50px 0 165px;
+    position: relative;
+}
+.s1::after{
+    content:"";
+    display: inline-block;
+    width: 585px;
+    height:585px;
+    border-radius: 640px;
+    background-color: #EABABA;
+    position: absolute;
+    top:23px;
+    right:65px;
+    z-index: -1;
+}
+.s1 img{
+    padding-right:130px;
+    width: 400px;
+    height:400px;
+}
+.text1 h1{
+    font-family: "Russo One", sans-serif;
+    font-weight: 365;
+    font-size: 82px;
+    font-style: normal;
+    color: #813434;
+}
+.text1 p{
+    font-family: "Philosopher", sans-serif;
+    padding-right:150px;
+    font-size:21px;
+    font-weight: 665;
+    font-style: normal;
+}
+.s2{
+    display: flex;
+    justify-content: center;
+    height:278px;
+    background-color: #D8BDD8;
+    padding:80px 0;
+}
+.s2 img{
+    width:280px;
+    height:280px;
+    margin-right:60px;
+}
+.s2:nth-child(odd) img{
+    margin-left:60px;
+    margin-right:10px;
+}
+.info1 h2{
+    font-family:"Rubik Mono One", monospace;
+    color:#940152;
+    font-weight: 400;
+    font-style: normal;
+}
+.info1 p{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.info1 ul{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 500px;
+}
+.s22{
+    display: flex;
+    justify-content: center;
+    height:100px;
+    background-color: #D8BDD8;
+    padding-bottom:400px;
+}
+.s22:nth-child(odd){
+    flex-direction: row-reverse;
+}
+.s22 img{
+    width:280px;
+    height:280px;
+    margin-left:60px;
+}
+.s22:nth-child(odd) img{
+    margin-left:60px;
+    margin-right:10px;
+}
+.info2 h2{
+    font-family:"Rubik Mono One", monospace;
+    color:#940152;
+    font-weight: 400;
+    font-style: normal;
+}
+.info2 p{
+    width:450px;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.info2 ol{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 450px;
+}
+.s3{
+    display:flex;
+    justify-content:center;
+    padding:80px 0px 0px 0px;
+    font-family:"Rubik Mono One", monospace;
+    color:#850303;
+    font-weight: 400;
+    font-style: normal;
+}
+.s31{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 450px;
+    width:330px;
+    border-radius: 25px;
+    background-color: #F6D0D0;
+    padding:40px;
+    margin-left: 20px;
+    margin-bottom: 150px;
+}
+.s31 h2{
+    justify-content: center;
+    font-family:"Rubik Mono One", monospace;
+    font-weight: 300;
+    font-style: normal;
+    color:black;
+}
+.s31 p{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding-bottom:235px;
+    color:black;
+}
+.s4{
+    display:flex;
+    justify-content:center;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-size: 35px;
+    font-style: normal;
+    background-color: #D8BDD8;
+    color:black;
+}
+.s41{
+    background-color: #D8BDD8;
+}
+.s41 img{
+    margin-top:50px;
+    margin-left:90px;
+    width:630px;
+    height:530px;
+}
+.s41 h1{
+    position: absolute;
+    color:#00051E;
+    font-family:"Rubik Mono One", monospace;
+    font-size: 30px;
+    font-weight: 300;
+    font-style: normal;
+    width: 800px;
+    margin-top: 250px;
+    margin-left:390px;
+}
+.s42{
+    background-color: #D8BDD8;
+}
+.s42 img{
+    margin-top:50px;
+    margin-left:650px;
+    width:630px;
+    height:530px;
+}
+.s42 h1{
+    position:absolute;
+    color:black;
+    font-family:"Rubik Mono One", monospace;
+    font-size:30px;
+    font-weight: 300;
+    font-style: normal;
+    width: 800px;
+    margin-top:280px;
+    margin-left:270px;
+}
+.s43{
+    background-color: #D8BDD8;
+}
+.s43 img{
+    margin-top:50px;
+    margin-left:90px;
+    width:630px;
+    height:530px;
+}
+.s43 h1{
+    position: absolute;
+    color:#3D0000;
+    font-family:"Rubik Mono One", monospace;
+    font-size: 30px;
+    font-weight: 300;
+    font-style: normal;
+    width: 800px;
+    margin-top: 250px;
+    margin-left:390px;
+}
+.s44{
+    background-color: #D8BDD8;
+}
+.s44 img{
+    margin-top:50px;
+    margin-left:650px;
+    width:630px;
+    height:530px;
+}
+.s44 h1{
+    position:absolute;
+    color:#346360;
+    font-family:"Rubik Mono One", monospace;
+    font-size:30px;
+    font-weight: 300;
+    font-style: normal;
+    width: 800px;
+    margin-top:280px;
+    margin-left:270px;
+}
+.foot1{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px 0px 0px;
+    font-family:"Rubik Mono One", monospace;
+    font-size:27px;
+    font-weight: 300;
+    font-style: normal;
+    color:black;
+}
+.butt{
+    margin:60px 400px 50px 400px;
+    font-size: 14px;
+    display: block;
+    height: 100px;
+    width:500px;
+    background: #FF8A00;
+    border-radius: 45px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 23px;
+    border: solid 2px #c56900;
+    font-family: "Rubik Mono One", monospace;
+    font-style: normal;
+    font-weight: 300;
+}
+.butt:hover{background:#ffab4c; color: rgb(221, 219, 219)}
+.foot3{
+    display:flex;
+    justify-content: space-around;
+}
+.foot3 img{
+    margin: 0px 5px 3px 13px;
+    height: 19px;
+    width: 19px;
+}
+.foot3 h2{
+    display:flex;
+    align-items:end;
+    font-family: "Rubik Mono One", monospace;
+    font-weight:345;
+    font-size: 16px;
+    font-style:normal;
+}
+
+@media (max-width: 480px) {
+    header{
+        width: 390px;
+        height: 40px;
+    }
+    header a{
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 10px;
+        margin-right: 32px;
+    }
+    .s1{
+        padding: 0px;
+        width: 390px;
+        height:300px;
+    }
+    .s1::after{
+        position: absolute;
+        right:25px;
+        top:40px;
+        margin:0px;
+        width: 180px;
+        height: 180px;
+    }
+    .s1 img{
+        position: relative;
+        right:50px;
+        bottom:20px;
+        width: 140px;
+        height:140px;
+        padding:0px;
+    }
+    .text1 h1{
+        position: relative;
+        bottom:15px;
+        padding:0px 0px 0px 50px;
+        font-weight: 100;
+        font-size: 16px;
+        width: 180px;
+    }
+    .text1 p{
+        position: relative;
+        bottom:10px;
+        padding:0px 0px 0px 50px;
+        font-size:13px;
+        font-weight: 100;
+        width: 195px;
+    }
+    .s2{
+        height:130px;
+        width:390px;
+    }
+    .s2 img{
+        width:100px;
+        height:100px;
+    }
+    .s2:nth-child(odd) img{
+        margin-left:10px;
+        margin-right:10px;
+    }
+    .info1 h2{
+        font-weight: 100;
+        font-size: 8px;
+    }
+    .info1 p{
+        font-size:8px;
+        width: 140px;
+    }
+    .info1 ul{
+        font-size:7px;
+        width: 140px;
+        margin-right:10px;
+    }
+    .s22{
+        width:390px;
+        padding:0px;
+        height:220px;
+    }
+    .s22:nth-child(odd){
+        flex-direction: row-reverse;
+    }
+    .s22 img{
+        margin:0px;
+        width:100px;
+        height:100px;
+        margin-right:15px;
+    }
+    .info2 h2{
+        margin-left:33px;
+        font-weight: 100;
+        font-size: 8px;
+        width:140px;
+    }
+    .info2 p{
+        margin-left:33px;
+        font-size:8px;
+        width: 140px;
+    }
+    .info2 ol{
+        padding:0px 0px 0px 15px;
+        margin-left: 15px;
+        font-size:7px;
+        width: 140px;
+    }
+    .s3{
+        width:390px;
+        padding:0px;
+        flex-direction: column;
+    }
+    .s3 h1{
+        margin:30px 0px 30px 40px;
+        align-items: center;
+        font-weight: 100;
+        font-size: 12px;
+    }
+    .s31{
+        display:flex;
+        flex-direction: column;
+        height: 570px;
+        width:280px;
+        padding:20px 20px 0px;
+        margin-bottom: 50px;
+        margin:0px 30px 70px 30px;
+    }
+    .s31 h2{
+        display:flex;
+        flex-direction: column;
+        padding:5px 0px 0px 0px;
+        font-size:17px;
+        width:200px;
+    }
+    .s31 p{
+        display:flex;
+        flex-direction: column;
+        font-size:14px;
+        font-weight: 300;
+        margin:0px;
+        margin-bottom: 10px;
+    }
+    .s4{
+        width:390px;
+    }
+    .s4 h1{
+        display:flex;
+        align-items: center;
+        font-weight: 100;
+        font-size: 15px;
+    }
+    .s41{
+        width:390px;
+    }
+    .s41 img{
+        margin:10px 10px 30px;
+        width:250px;
+        height:210px;
+    }
+    .s41 h1{
+        margin:90px 120px 30px;
+        font-size: 12px;
+        font-weight: 100;
+        width: 240px;
+    }
+    .s42{
+        width:390px;
+    }
+    .s42 img{
+        margin:10px 120px 30px;
+        width:250px;
+        height:210px;
+    }
+    .s42 h1{
+        margin:100px 20px 30px;
+        font-size: 13px;
+        font-weight: 100;
+        width: 220px;
+    }
+    .s43{
+        width:390px;
+    }
+    .s43 img{
+        margin:10px 10px 30px;
+        width:250px;
+        height:210px;
+    }
+    .s43 h1{
+        margin:90px 120px 30px;
+        font-size: 12px;
+        font-weight: 100;
+        width: 240px;
+    }
+    .s44{
+        width:390px;
+    }
+    .s44 img{
+        margin:10px 120px 30px;
+        width:250px;
+        height:210px;
+    }
+    .s44 h1{
+        margin:100px 20px 30px;
+        font-size: 13px;
+        font-weight: 100;
+        width: 220px;
+    }
+    .foot1{
+        font-weight: 100;
+        font-size:9px;
+        width:320px;
+        padding: 0px;
+        margin: 40px 30px 35px 40px;
+    }
+    .butt{
+        margin: 10px 20px 15px 50px;
+        font-size: 8px;
+        height: 50px;
+        width: 270px;
+        font-size: 12px;
+        font-weight: 150;
+    }
+    .foot3{
+        width:370px;
+        display:flex;
+        justify-content: space-between;
+    }
+    .foot3 img{
+        margin: 0px 7px 3px 5px;
+        height: 9px;
+        width: 9px;
+    }
+    .foot3 h2{
+        margin:0px 0px 5px 3px;
+        font-weight:100;
+        font-size: 8px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1180px) and (orientation: landscape) {
+    .s41 h1{
+        width: 750px;
+    }
+    .s42 img{
+        margin:50px 20px 0px 500px;
+    }
+    .s44 img{
+        margin:50px 20px 0px 500px;
+    }
+}
